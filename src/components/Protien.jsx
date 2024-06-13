@@ -1,4 +1,5 @@
 import React from "react";
+import product_description from './product_description.jsx';
 
 const Protien = () => {
   return (
@@ -23,10 +24,9 @@ const Protien = () => {
               </figure>
               <h3>$400</h3>
               <span> Shilajit</span>
-              <a className="read_more mar_top" href="Javascript:void(0)">
-                {" "}
+                <button className="read_more mar_top" onClick = {product_description}>
                 Buy Now
-              </a>
+                </button>
             </div>
           </div>
           <div className="col-md-3 col-sm-6">
@@ -40,10 +40,9 @@ const Protien = () => {
               </figure>
               <h3>$400</h3>
               <span> Protein </span>
-              <a className="read_more mar_top" href="Javascript:void(0)">
-                {" "}
+                <button className="read_more mar_top">
                 Buy Now
-              </a>
+                </button>
             </div>
           </div>
           <div className="col-md-3 col-sm-6">
@@ -57,10 +56,9 @@ const Protien = () => {
               </figure>
               <h3>$400</h3>
               <span> Legend Protein </span>
-              <a className="read_more mar_top" href="Javascript:void(0)">
-                {" "}
+                <button className="read_more mar_top">
                 Buy Now
-              </a>
+                </button>
             </div>
           </div>
           <div className="col-md-3 col-sm-6">
@@ -74,10 +72,9 @@ const Protien = () => {
               </figure>
               <h3>$400</h3>
               <span> Ashwagandha </span>
-              <a className="read_more mar_top" href="Javascript:void(0)">
-                {" "}
+                <button className="read_more mar_top">
                 Buy Now
-              </a>
+                </button>
             </div>
           </div>
         </div>

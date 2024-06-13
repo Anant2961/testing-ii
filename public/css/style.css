@@ -258,11 +258,11 @@ button {
 .header {
      width: 100%;
      position: relative;
-     padding-left: 0;
+     padding-left: 0
 }
 
 .header_full_bg {
-     background: #17c1eb;
+     background: #30a8acc4;
 }
 
 .header_top {

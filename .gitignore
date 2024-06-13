@@ -7,6 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+new.py
+new2.py
 node_modules
 dist
 dist-ssr

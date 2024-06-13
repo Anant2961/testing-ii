@@ -45,7 +45,15 @@ const Header = () => {
                 <div className="col-md-12">
                   <div className="logo">
                     <a href="index.html">
-                      <img src="images/logo.png" alt="#" />
+                      <img
+                        src="images_II/pro_logo.jpeg"
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                          mixBlendMode: "multiply",
+                        }}
+                        alt="#"
+                      />
                     </a>
                   </div>
                 </div>
@@ -58,8 +66,8 @@ const Header = () => {
                 <div className="col-md-5">
                   <div className="banner_text">
                     <h1>
-                      CORDYTESTO
-                      <br /> Body Builder Protien
+                      Nurture your body with <br />
+                      Nature Finest Herbs
                     </h1>
                     <a className="get_btn" href="#about" role="button">
                       About Protien
@@ -76,6 +84,8 @@ const Header = () => {
                     alt="#"
                     style={{
                       height: "100vh",
+                      mixBlendMode: "normal",
+                      filter: "contrast(1)",
                     }}
                   />
                 </div>
