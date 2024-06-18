@@ -3,10 +3,11 @@ import { useNavigate } from "react-router-dom";
 // import product_description from './product_description.jsx';
 
 const Protien = () => {
-  const navigate = useNavigate();
-  const handlebuttonclick = () => {
-    navigate("/");
-  };
+  // const navigate = useNavigate();
+  // const handlebuttonclick = () => {
+  // navigate("/");
+  // };
+
   return (
     <div id="protien" className="protien_main">
       <div className="container">
