@@ -1,9 +1,18 @@
 import React from "react";
+import { Fade, Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 
 const Header = () => {
   const openNav = () => {
     document.getElementById("myNav").style.width = "100%";
   };
+
+  const fadeImages = [
+    "images_II/athelet_testorone.JPG",
+    "images_II/pankaj_mohte.JPG",
+    "images_II/another_advertisement.JPG",
+    "images_II/cordyshila.JPG",
+  ];
   return (
     <div>
       <div className="header">
@@ -12,9 +21,11 @@ const Header = () => {
             <li>
               <button type="button">
                 <img
-                  style={{}}
-                  onClick={() => openNav()}
-                  src="images/menu_icon.png"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    openNav();
+                  }}
+                  src="default_images/menu_icon.png"
                   alt="#"
                 />
               </button>
@@ -22,17 +33,17 @@ const Header = () => {
           </ul>
           <ul className="social_icon">
             <li>
-              <a href="javascript:void(0)">
+              <a role="button">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a role="button">
                 <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a role="button">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
@@ -78,16 +89,22 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="col-md-7">
-                  <img
-                    className="bann_img"
-                    src="images_II/cordyceps_word.JPG"
-                    alt="#"
-                    style={{
-                      height: "100vh",
-                      mixBlendMode: "normal",
-                      filter: "contrast(1)",
-                    }}
-                  />
+                  <div className="slide-container">
+                    <Slide>
+                      <div className="each-fade">
+                        <img src={fadeImages[0]} alt="slide1" />
+                      </div>
+                      <div className="each-fade">
+                        <img src={fadeImages[1]} alt="slide2" />
+                      </div>
+                      <div className="each-fade">
+                        <img src={fadeImages[2]} alt="slide3" />
+                      </div>
+                      <div className="each-fade">
+                        <img src={fadeImages[3]} alt="slide4" />
+                      </div>
+                    </Slide>
+                  </div>
                 </div>
               </div>
             </div>

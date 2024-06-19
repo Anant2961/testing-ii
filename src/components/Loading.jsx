@@ -8,14 +8,17 @@ const Loading = () => {
     <>
       <div className="loader_bg">
         <div className="loader">
-          <img src="images/loading.gif" alt="#" />
+          <img src="default_images/loading.gif" alt="#" />
         </div>
       </div>
       <div id="myNav" className="menu_sid">
         <a
-          href="javascript:void(0)"
+          role="button"
           className="closebtn"
-          onClick={() => closeNav()}
+          onClick={() => {
+            closeNav();
+          }}
+          style={{ cursor: "pointer" }}
         >
           &times;
         </a>

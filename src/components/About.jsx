@@ -13,7 +13,7 @@ const About = () => {
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or
               </p>
-              <a className="read_more" href="Javascript:void(0)">
+              <a className="read_more" role="button">
                 {" "}
                 Read More
               </a>
@@ -22,7 +22,7 @@ const About = () => {
           <div className="col-md-6 pad_right0">
             <div className="about_img ">
               <figure>
-                <img src="images/about.png" alt="#" />
+                <img src="default_images/about.png" alt="#" />
               </figure>
             </div>
           </div>

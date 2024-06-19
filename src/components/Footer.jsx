@@ -30,7 +30,12 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <img className="tex_left" src="images/logo2.png" alt="#" />
+              <img
+                className="tex_left"
+                src="images_II/pro_logo.jpeg"
+                alt="#"
+                style={{ width: "150px", height: "auto" }}
+              />
             </div>
             <div className=" col-md-3 col-sm-6">
               <p className="variat">
@@ -75,22 +80,22 @@ const Footer = () => {
             <div className="col-sm-12">
               <ul className="social2_icon">
                 <li>
-                  <a href="javascript:void(0)">
+                  <a role="button">
                     <i className="fa fa-facebook" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">
+                  <a role="button">
                     <i className="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">
+                  <a role="button">
                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">
+                  <a role="button">
                     <i className="fa fa-instagram" aria-hidden="true"></i>
                   </a>
                 </li>
