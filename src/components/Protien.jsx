@@ -1,13 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import product_description from './product_description.jsx';
+import Product_desc from "./Product_desc";
 
 const Protien = () => {
-  // const navigate = useNavigate();
-  // const handlebuttonclick = () => {
-  // navigate("/");
-  // };
-
   return (
     <div id="protien" className="protien_main">
       <div className="container">

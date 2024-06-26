@@ -4,7 +4,8 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { createBrowserRouter } from "react-router-dom";
+import Product_desc from "./components/Product_desc";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
